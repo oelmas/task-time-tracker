@@ -73,4 +73,9 @@ public class UserDaoImpl extends GenericDaoImpl<User, String> implements UserDao
 
         return user;
     }
+
+    @Override
+    public User findByUsername(String username) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
